@@ -26,7 +26,7 @@ C3E2FF
 /* Cabeçalho */
 
 .escopo{
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.346);
     margin: 0;
     padding: 0;
     overflow-y: hidden;
@@ -54,6 +54,8 @@ C3E2FF
     height: 200px;
     max-width: 400px;
     max-height: 400px;
+    border-style: none;
+    border-radius: 4px;
 }
 
 .header-content{
@@ -82,5 +84,56 @@ C3E2FF
 }
 
 /* Conteúdo principal */
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
 
+.main-title{
+    /* background-color: #ff7caca9; */
+    text-align: center;
+    color: #C3E2FF;
+    text-shadow: 1px 1px 7px #889eb2;
+    border-style: solid;
+    border-width: 4px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 4px;
+    border-color: #f24886;
+    margin: 0 5% 0 5%;
+    min-width: 160px;
+    max-width: 640px;
+}
+.main-content-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    min-height: 700px;
+    margin: 5px;
+    box-shadow: 2px 2px 4px #d47296;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
 /* Rodapé */
