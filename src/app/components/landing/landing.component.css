@@ -166,4 +166,24 @@ C3E2FF
     padding: 1px;
 }
 
+.main-second-content-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-width: 320px;
+    max-width: 640px;
+}
+.main-second-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 160px;
+    height: 320px;
+}
 /* Rodapé */
