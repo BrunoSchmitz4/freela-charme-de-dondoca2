@@ -1,0 +1,86 @@
+/* Paletas de cores usadas no Mercado Livre
+Paleta de cores 1:
+CDB4DB
+E6BEDC
+FFC8DD
+FFBCD5
+
+FFAFCC
+DEC8E5
+
+CED4F2
+C6DAF8
+BDE0FE
+A2D2FF
+
+Paleta de cores 2 (pastél real):
+Violeta - rosa claro - rosa - azul claro - azul
+DECEE7
+FFDBE9
+FFCADD
+D5EBFE
+C3E2FF
+*/
+
+
+/* Cabeçalho */
+
+.escopo{
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient( to bottom, #CDB4DB, #E6BEDC, #FFC8DD, #FFBCD5);
+}
+.header-box{
+
+}
+.header-logo{
+    width: 200px;
+    height: 200px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+
+    background-size: 100%;
+
+    min-height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* Conteúdo principal */
+
+/* Rodapé */
