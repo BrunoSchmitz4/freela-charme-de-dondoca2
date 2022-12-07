@@ -160,7 +160,7 @@ C3E2FF
     background-color: #E6BEDC;
     border: none;
     border-radius: 4px;
-    width: 160px;
+    width: 140px;
     height: 40px;
     font-size: 20px;
     padding: 1px;
@@ -174,16 +174,23 @@ C3E2FF
     align-content: center;
     justify-content: center;
     min-width: 320px;
-    max-width: 640px;
+    max-width: 1024px;
 }
-.main-second-container{
+.main-third-container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 160px;
-    height: 320px;
+    height: 200px;
+}
+
+.main-third-title{
+    text-align: center;
+    color: #d47296;
+    font-size: 24px;
+    text-decoration: underline #a35874;
 }
 /* Rodapé */
